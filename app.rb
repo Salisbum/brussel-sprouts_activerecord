@@ -1,6 +1,10 @@
 require 'sinatra'
 require 'sinatra/activerecord'
 require 'sinatra/reloader'
+require "pry"
+require 'will_paginate'
+require 'will_paginate/active_record'
+
 
 configure :development, :test do
   require 'pry'
